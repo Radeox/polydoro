@@ -10,7 +10,13 @@ Simple pomodoro timer for polybar.
     git clone https://github.com/Radeox/polydoro.git ~/.config/polybar/polydoro/
     ```
 
-2. Add the module to your configuration:
+2. Install required python modules:
+
+    ```bash
+    pip install -r ~/.config/polybar/polydoro/requirements.txt
+    ```
+
+3. Add the module to your configuration:
 
     ```bash
     include-file = ~/.config/polybar/polydoro/polydoro.ini
@@ -20,9 +26,10 @@ Simple pomodoro timer for polybar.
     modules-left = "... polydoro ..."
     ```
 
-## Use ##
+4. Restart polybar and use:
 
-Left-click to start timer and right click to stop it.
+* `Left click` &rarr; Start timer
+* `Right click` &rarr; Stop timer
 
 ### Optional ###
 
